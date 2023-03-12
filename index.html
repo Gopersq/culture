@@ -1,108 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/container.css">
-   <link rel="stylesheet" href="css/logo.css">
-   <link rel="stylesheet" href="css/hat.css">
-   <link rel="stylesheet" href="css/laughter.css">
-   <link rel="stylesheet" href="css/flower.css">
-   <link rel="stylesheet" href="css/lorem.css">
-   <link rel="stylesheet" href="css/coffee.css">
-   <link rel="stylesheet" href="css/brown.css">
-   <link rel="stylesheet" href="css/red.css">
-   <link rel="stylesheet" href="css/door.css">
-   <link rel="stylesheet" href="css/silence.css">
-   <title>Homework</title>
-</head>
-<body>
-   <main>
-
-      <div class="container">
-
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/container.css" />
+      <link rel="stylesheet" href="css/logo.css" />
+      <link rel="stylesheet" href="css/hat.css" />
+      <link rel="stylesheet" href="css/laughter.css" />
+      <link rel="stylesheet" href="css/flower.css" />
+      <link rel="stylesheet" href="css/lorem.css" />
+      <link rel="stylesheet" href="css/coffee.css" />
+      <link rel="stylesheet" href="css/brown.css" />
+      <link rel="stylesheet" href="css/red.css" />
+      <link rel="stylesheet" href="css/door.css" />
+      <link rel="stylesheet" href="css/silence.css" />
+      <title>Homework</title>
+   </head>
+   <body>
+      <main class="container">
          <div class="logo">
-            <h1 class="logo__title">Company culture</h1>
+            <h1 class="logo__title">Company<br />culture</h1>
             <div class="logo__socials">
-               <svg class="logo__icon">
-                  <use xlink:href="image/sprite.svg#inst" width="23" height="23"></use>
-               </svg>
-               <svg class="logo__icon">
-                  <use xlink:href="image/sprite.svg#letter" width="23" height="23"></use>
-               </svg>
-               <svg class="logo__icon">
-                  <use xlink:href="image/sprite.svg#phone" width="23" height="23"></use>
-               </svg>
+               <a href="#">
+                  <svg class="logo__icon">
+                     <title>Go to instagram</title>
+                     <use
+                        xlink:href="image/sprite.svg#inst"
+                        width="23"
+                        height="23"
+                     ></use>
+                  </svg>
+               </a>
+               <a href="#">
+                  <svg class="logo__icon">
+                     <title>To send a letter</title>
+                     <use
+                        xlink:href="image/sprite.svg#letter"
+                        width="23"
+                        height="23"
+                     ></use>
+                  </svg>
+               </a>
+               <a href="tel:+79999999999">
+                  <svg class="logo__icon">
+                     <title>Call a phone number</title>
+                     <use
+                        xlink:href="image/sprite.svg#phone"
+                        width="23"
+                        height="23"
+                     ></use>
+                  </svg>
+               </a>
             </div>
          </div>
 
-         <picture class="hat">
-            <source type="image/avif" srcset="image/hat@1x.avif 1x,
-                                             image/hat@2x.avif 2x">
-            <source type="image/webp" srcset="image/hat@1x.webp 1x,
-                                             image/hat@2x.webp 2x">
-            <img src="image/hat@1x.jpg" srcset="image/hat@2x.jpg 2x" alt="Woman in a hat" width="100%" height="100%"> 
-         </picture>
-
-         <picture class="laughter">
-            <source type="image/avif" srcset="image/cry@1x.avif 1x,
-                                             image/cry@2x.avif 2x">
-            <source type="image/webp" srcset="image/cry@1x.webp 1x,
-                                             image/cry@2x.webp 2x">
-            <img src="image/cry@1x.jpg" srcset="image/cry@2x.jpg 2x" alt="Woman laughing" width="100%" height="100%">
-         </picture>
-         
-         <picture class="flower">
-            <source type="image/avif" srcset="image/woman@1x.avif 1x,
-                                             image/woman@2x.avif 2x">
-            <source type="image/webp" srcset="image/woman@1x.webp 1x,
-                                             image/woman@2x.webp 2x">
-            <img src="image/woman@1x.jpg" srcset="image/woman@2x.jpg 2x" alt="Woman with flowers" width="100%" height="100%">
-         </picture>
-         
-         <div class="lorem">
-            <p class="lorem__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa ultricies aliquam egestas amet mi aliquam. Eu, vel massa elementum nulla.</p>
+         <div class="hat">
+            <picture>
+               <source
+                  type="image/avif"
+                  srcset="image/hat@1x.avif 1x, image/hat@2x.avif 2x"
+               />
+               <source
+                  type="image/webp"
+                  srcset="image/hat@1x.webp 1x, image/hat@2x.webp 2x"
+               />
+               <img
+                  src="image/hat@1x.jpg"
+                  srcset="image/hat@2x.jpg 2x"
+                  alt="Woman in a hat"
+                  width="100%"
+                  height="100%"
+               />
+            </picture>
          </div>
 
-         <picture class="coffee">
-            <source type="image/avif" srcset="image/coffee@1x.avif 1x,
-                                             image/coffee@2x.avif 2x">
-            <source type="image/webp" srcset="image/coffee@1x.webp 1x,
-                                             image/coffee@2x.webp 2x">
-            <img src="image/coffee@1x.jpg" srcset="image/coffee@2x.jpg 2x" alt="Cup of coffee" width="100%" height="100%">
-         </picture>
+         <div class="laughter">
+            <picture>
+               <source
+                  type="image/avif"
+                  srcset="image/cry@1x.avif 1x, image/cry@2x.avif 2x"
+               />
+               <source
+                  type="image/webp"
+                  srcset="image/cry@1x.webp 1x, image/cry@2x.webp 2x"
+               />
+               <img
+                  src="image/cry@1x.jpg"
+                  srcset="image/cry@2x.jpg 2x"
+                  alt="Woman laughing"
+                  width="100%"
+                  height="100%"
+               />
+            </picture>
+         </div>
 
-         <div class="brown">
-            <p class="visually-hidden">
-               Designer brown insert
+         <div class="flower">
+            <picture>
+               <source
+                  type="image/avif"
+                  srcset="image/woman@1x.avif 1x, image/woman@2x.avif 2x"
+               />
+               <source
+                  type="image/webp"
+                  srcset="image/woman@1x.webp 1x, image/woman@2x.webp 2x"
+               />
+               <img
+                  src="image/woman@1x.jpg"
+                  srcset="image/woman@2x.jpg 2x"
+                  alt="Woman with flowers"
+                  width="100%"
+                  height="100%"
+               />
+            </picture>
+         </div>
+
+         <div class="lorem">
+            <p class="lorem__text">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+               ultricies aliquam egestas amet mi aliquam. Eu, vel massa
+               elementum nulla.
             </p>
          </div>
 
-         <picture class="door">
-            <source type="image/avif" srcset="image/door@1x.avif 1x,
-                                             image/door@2x.avif 2x">
-            <source type="image/webp" srcset="image/door@1x.webp 1x,
-                                             image/door@2x.webp 2x">
-            <img src="image/door@1x.jpg" srcset="image/door@2x.jpg 2x" alt="Open door" width="100%" height="100%">
-         </picture>
-         
+         <div class="coffee">
+            <picture>
+               <source
+                  type="image/avif"
+                  srcset="image/coffee@1x.avif 1x, image/coffee@2x.avif 2x"
+               />
+               <source
+                  type="image/webp"
+                  srcset="image/coffee@1x.webp 1x, image/coffee@2x.webp 2x"
+               />
+               <img
+                  src="image/coffee@1x.jpg"
+                  srcset="image/coffee@2x.jpg 2x"
+                  alt="Cup of coffee"
+                  width="100%"
+                  height="100%"
+               />
+            </picture>
+         </div>
+
+         <div class="brown">
+            <p class="visually-hidden">Designer brown insert</p>
+         </div>
+
+         <div class="door">
+            <picture>
+               <source
+                  type="image/avif"
+                  srcset="image/door@1x.avif 1x, image/door@2x.avif 2x"
+               />
+               <source
+                  type="image/webp"
+                  srcset="image/door@1x.webp 1x, image/door@2x.webp 2x"
+               />
+               <img
+                  src="image/door@1x.jpg"
+                  srcset="image/door@2x.jpg 2x"
+                  alt="Open door"
+                  width="100%"
+                  height="100%"
+               />
+            </picture>
+         </div>
+
          <div class="red">
             <p class="visually-hidden">Designer red insert</p>
          </div>
 
-         <picture class="silence">
-            <source type="image/avif" srcset="image/silence@1x.avif 1x,
-                                             image/silence@2x.avif 2x">
-            <source type="image/webp" srcset="image/silence@1x.webp 1x,
-                                             image/silence@2x.webp 2x">
-            <img src="image/silence@1x.jpg" srcset="image/silence@2x.jpg 2x" alt="Man showing sign quietly with finger" width="100%" height="100%">
-         </picture>
-
-      </div>
-
-   </main>
-</body>
+         <div class="silence">
+            <picture>
+               <source
+                  type="image/avif"
+                  srcset="image/silence@1x.avif 1x, image/silence@2x.avif 2x"
+               />
+               <source
+                  type="image/webp"
+                  srcset="image/silence@1x.webp 1x, image/silence@2x.webp 2x"
+               />
+               <img
+                  src="image/silence@1x.jpg"
+                  srcset="image/silence@2x.jpg 2x"
+                  alt="Man showing sign quietly with finger"
+                  width="100%"
+                  height="100%"
+               />
+            </picture>
+         </div>
+      </main>
+   </body>
 </html>
